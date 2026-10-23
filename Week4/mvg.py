@@ -1,9 +1,9 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-mean = [0,0]
+mean = [0,10]
 
-cov = [[1,0.8],
+cov = [[10,0.8],
        [0.8,1]]
 
 samples = np.random.multivariate_normal(mean,cov,500)
